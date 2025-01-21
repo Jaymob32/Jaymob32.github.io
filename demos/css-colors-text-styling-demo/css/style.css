@@ -1,0 +1,38 @@
+body {
+    background-color: #2d5c83;
+}
+#p1 {
+    color:aliceblue;
+}
+#p2 {
+    color:#7fffd4;
+    font-weight: bold;
+    font-size: 25px;
+    background-color:#8a2be2
+}
+#p3 {
+    color:#3b0627;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#pretty {
+    padding: 50vh 10%;
+    color:aliceblue
+}
+#s1 {
+    font-weight: bold;
+    color:aquamarine;
+    font-size: 25px;
+}
+#s2 {
+    font-style: italic;
+    letter-spacing: 2px;
+}
+#s3 {
+    background-color:#3b305a
+}
+#s4 {
+    text-align: right;
+}
