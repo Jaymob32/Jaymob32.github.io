@@ -1,6 +1,7 @@
 #p1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    font-weight: 900;
 }
 #p1-c1 {
     background-color: #2D142C;
@@ -27,6 +28,7 @@
 #p2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    font-weight: 900;
 }
 #p2-c1 {
     background-color: #2A363B;
@@ -53,6 +55,7 @@
 #p3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    font-weight: 900;
 }
 #p3-c1 {
     background-color: #223030;
