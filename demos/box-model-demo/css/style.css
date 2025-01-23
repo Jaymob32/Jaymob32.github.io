@@ -1,0 +1,36 @@
+div {
+    border: 10px dashed aquamarine;
+    /*
+        Shorthand Margin can have up to 4 values.
+        1 value: Applies value to all 4 sides.
+        2 value: First value applies to top and bottom,
+            second value applies to left and right.
+        3 value: First value applies to top,
+            second value applies to left and right,
+            third value applies to the bottom.
+        4 value: First value applies to top,
+            second value applies to the right,
+            third value applies to the bottom,
+            fourth value applies to the left.
+        
+        Padding follows the same rule set.
+        Border does not follow the same rule set.
+    */
+    margin: 25px 100px 50px 10px;
+    padding: 25px;
+    background-color: #846f97;
+    /* 
+        Shorthand border radius
+        1 value: applies to all corners.
+        2 value: first value applies to top left and bottom right corners.
+                 second value applies to top right and bottom left corners.
+        3 value: first value applies to top left
+                 second value applies to top right and bottom left corners.
+                 third value applies to bottom right corner.
+        4 value: first value applies to the top left,
+                 second value applies to the top right corner,
+                 third value applies to the bottom right corner,
+                 fourth value applies to the bottom left corner.
+     */
+    border-radius: 25px 100px 10px 300px;
+}
