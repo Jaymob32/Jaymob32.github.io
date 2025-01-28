@@ -12,16 +12,69 @@ img {
     object-fit: cover;
 }
 
+/* First */
 .frame-1 {
     border: 10px outset black;
     margin: 70px 12px 0px;
     box-shadow: -2px 2px 2px #444;
 }
 .frame-1 img {
-    width: 80px;
+    width: 85px;
     display: block;
 }
 .frame-1 div {
+    background-color: #ffffff;
+    padding: 8px;
+    box-shadow: inset -1px 1px 2px #444;
+}
+
+/* Second */
+.frame-2 {
+    border: 8px outset black;
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+    border-radius: 50%;
+}
+.frame-2 img {
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+}
+.frame-2 div {
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: inset -1px 1px 2px #444;
+    border-radius: 50%;
+}
+
+/* Third */
+.frame-3 {
+    border: 8px outset black;
+    margin: 20px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+}
+.frame-3 div p {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin: 0%;
+   font-size: 10px;
+}
+.frame-3 div {
+    background-color: #5ad8e9;
+    padding: 8px;
+    box-shadow: inset -1px 1px 2px #444;
+}
+
+/* Fourth */
+.frame-4 {
+    border: 8px outset black;
+    margin: -200px 200px;
+    box-shadow: -2px 2px 2px #444;
+}
+.frame-4 img {
+    width: 85px;
+    display: block;
+}
+.frame-4 div {
     background-color: #ffffff;
     padding: 8px;
     box-shadow: inset -1px 1px 2px #444;
