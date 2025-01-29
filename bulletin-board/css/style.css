@@ -1,83 +1,92 @@
 /*
     NOTE TO STUDENTS: 
 
-    This is the file you should be writing your CSS in 
-    for the Bulletin Board assignment.
+        This is the file you should be writing your CSS in 
+        for the Bulletin Board assignment.
 
-    Good luck, and have fun!
+        Good luck, and have fun!
 */
-div .container {
-    margin: 50px 50px 50px;
-}
 
-div .post-it-1 {
-    background-color: aquamarine;
-    display: inline-block;
-    width: 200px;
-    height: 180px;
-    margin: 24px 15px;
-    padding: 30px;
-    font-family: cursive;
-    text-align: center;
-    box-shadow: 6px 6px 12px #272727;
-}
+        div .container {
+            margin: 50px 50px 50px;
+        }
 
-div .post-it-2 {
-    background-color: #e8ff7f;
-    display: inline-block;
-    width: 200px;
-    height: 180px;
-    margin: 24px 15px;
-    padding: 15px;
-    font-family: cursive;
-    text-align: center;
-    box-shadow: 6px 6px 12px #272727;
-}
+        div .post-it-1 {
+            background-color: aquamarine;
+            display: inline-block;
+            width: 200px;
+            height: 180px;
+            margin: 24px 15px;
+            padding: 30px;
+            font-family: cursive;
+            text-align: center;
+            box-shadow: 6px 6px 12px #272727;
+        }
 
-div .post-it-3 {
-    background-color: #ff8800;
-    display: inline-block;
-    width: 200px;
-    height: 180px;
-    margin: 24px 15px;
-    padding: 30px;
-    font-family: cursive;
-    text-align: center;
-    box-shadow: 6px 6px 12px #272727;
-}
+        div .post-it-2 {
+            background-color: #e8ff7f;
+            display: inline-block;
+            width: 200px;
+            height: 180px;
+            margin: 24px 15px;
+            padding: 15px;
+            font-family: cursive;
+            text-align: center;
+            box-shadow: 6px 6px 12px #272727;
+        }
 
-div .post-it-4 {
-    background-color: #1eff00;
-    display: inline-block;
-    width: 200px;
-    height: 180px;
-    margin: 24px 15px 0px;
-    padding: 24px;
-    font-family: cursive;
-    text-align: center;
-    box-shadow: 6px 6px 12px #272727;
-}
+        div .post-it-3 {
+            background-color: #ff8800;
+            display: inline-block;
+            width: 200px;
+            height: 180px;
+            margin: 24px 15px;
+            padding: 30px;
+            font-family: cursive;
+            text-align: center;
+            box-shadow: 6px 6px 12px #272727;
+        }
 
-div .post-it-5 {
-    background-color: #ff00d4;
-    display: inline-block;
-    width: 200px;
-    height: 180px;
-    margin: 24px 15px;
-    padding: 15px;
-    font-family: cursive;
-    text-align: center;
-    box-shadow: 6px 6px 12px #272727;
-}
+        div .post-it-4 {
+            background-color: #1eff00;
+            display: inline-block;
+            width: 200px;
+            height: 180px;
+            margin: 24px 15px 0px;
+            padding: 24px;
+            font-family: cursive;
+            text-align: center;
+            box-shadow: 6px 6px 12px #272727;
+        }
 
-div .post-it-6 {
-    background-color: #ae00ff;
-    display: inline-block;
-    width: 200px;
-    height: 180px;
-    margin: 24px 15px;
-    padding: 10px;
-    font-family: cursive;
-    text-align: center;
-    box-shadow: 6px 6px 12px #272727;
-}
+        div .post-it-5 {
+            background-color: #ff00d4;
+            display: inline-block;
+            width: 200px;
+            height: 180px;
+            margin: 24px 15px;
+            padding: 15px;
+            font-family: cursive;
+            text-align: center;
+            box-shadow: 6px 6px 12px #272727;
+        }
+
+        div .post-it-6 {
+            background-color: #ae00ff;
+            display: inline-block;
+            width: 200px;
+            height: 180px;
+            margin: 24px 15px;
+            padding: 10px;
+            font-family: cursive;
+            text-align: center;
+            box-shadow: 6px 6px 12px #272727;
+        }
+
+        div .post-it-7 img {
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            margin: 24px 150px;
+            padding: 10px;
+        }
