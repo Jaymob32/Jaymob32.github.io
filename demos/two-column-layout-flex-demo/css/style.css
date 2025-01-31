@@ -1,0 +1,31 @@
+/* Resets */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* 
+    Two Column Styles 
+    
+    While display: flex; is technically the only property/value pair that
+    you need to set up a two column layout with flex, remember
+    to use other properties to make it look well, designed, and intuitive.
+*/
+
+#two-columns {
+    display: flex;
+}
+#sidebar {
+    width: 200px;
+    background-color: #704c92;
+    order: 2;
+}
+#main {
+    background-color: rgb(96, 96, 170);
+    flex: 1;
+    order: 1;
+}
