@@ -16,7 +16,6 @@ body {
     background-color: black;
 }
 
-
 #two-columns {
     display: grid;
     grid-template-columns: 1fr 500px 250px 1fr;
