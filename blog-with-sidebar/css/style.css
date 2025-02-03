@@ -10,7 +10,7 @@ body {
 
 body {
     background-image: 
-    url(https://images.unsplash.com/photo-1627764574768-539effd9af35?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        url(https://images.unsplash.com/photo-1627764574768-539effd9af35?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: contain;
 }
 
@@ -108,7 +108,7 @@ body {
     font-size: 60px;
     letter-spacing: 15px;
     margin: 0px;
-    color:#ffffff
+    color: #ffffff;
 }
 
 #author {
