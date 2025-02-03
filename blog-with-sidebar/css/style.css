@@ -1,0 +1,117 @@
+/* Resets */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: 
+    url(https://images.unsplash.com/photo-1627764574768-539effd9af35?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: contain;
+}
+
+#two-columns {
+    display: grid;
+    grid-template-columns: 1fr 500px 250px 1fr;
+    grid-template-areas: ". content sidebar .";
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 18px;
+}
+
+#sidebar h2 {
+    background-color: #580d6b;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+#sidebar ul {
+    background-color: #5e5e5ee7;
+    border: 1px solid #580d6b;
+    margin: 0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+#sidebar li {
+    border-bottom: 1px solid #580d6b;
+    padding: 8px 0px;
+}
+
+#sidebar li:last-child {
+    border-bottom: none;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #2ac7ee;
+}
+
+#main {
+    grid-area: content;
+    margin: 12px 36px;
+    color: #ffffff;
+    background-color: #580d6bda;
+    border-radius: 10%;
+    padding: 0px 10px;
+}
+
+#main h1 {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    background-color: #580d6b;
+    text-align: center;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#main h3 {
+    color: #2ac7ee;
+    border-bottom: 1px solid #ffffff;
+    background-color: #580d6b;
+    text-align: center;
+}
+
+#decks {
+    padding: 24px 10px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 200px;
+    border: 2px solid #2ac7ee;
+}
+
+.bar {
+    background-image: url(https://images.pexels.com/photos/6944923/pexels-photo-6944923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 2px solid #580d6b;
+    border-style: outset;
+    border-width: 5px;
+}
+
+#head {
+    text-align: left;
+    font-family: cursive;
+    font-size: 60px;
+    letter-spacing: 15px;
+    margin: 0px;
+    color:#ffffff
+}
+
+#author {
+    color: white;
+
+}
