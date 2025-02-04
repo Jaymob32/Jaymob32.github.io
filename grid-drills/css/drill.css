@@ -44,7 +44,8 @@
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
         "one one"
-        "three two";
+        "three two"
+    ;
 }
 #d5-cell1 {
     grid-area: one;
@@ -64,7 +65,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "one two"
-        "three three";
+        "three three"
+    ;
 }
 #d6-cell1 {
     grid-area: one;
