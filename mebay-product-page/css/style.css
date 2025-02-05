@@ -78,37 +78,6 @@ h2 {
     font-size: 12px;
 }
 
-#button1 {
-    background-color: blue;
-    color: white;
-    text-align: center;
-    border-radius: 40%;
-    height: 30px;
-    width: 300px;
-    margin-bottom: 10px;
-}
-#button2 {
-    background-color: white;
-    color: blueviolet;
-    text-align: center;
-    border-radius: 40%;
-    height: 30px;
-    width: 300px;
-    margin-bottom: 10px;
-}
-#button3 {
-    background-color: white;
-    color: blueviolet;
-    text-align: center;
-    border-radius: 40%;
-    height: 30px;
-    width: 300px;
-    margin-bottom: 10px;
-    i {
-        color: blueviolet;
-    }
-}
-
 #people {
     background-color: #ffffff25;
     width: 305px;
@@ -119,5 +88,45 @@ h2 {
     .fa-solid {
         padding: 10px;
         color: blueviolet
+    }
+}
+
+#button1 {
+    display: inline-block;
+    width: 300px;
+    padding: 8px 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#button2 {
+    display: inline-block;
+    width: 300px;
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#button3 {
+    display: inline-block;
+    width: 300px;
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    .fa-regular {
+        color: blueviolet;
     }
 }
