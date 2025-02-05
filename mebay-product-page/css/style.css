@@ -45,10 +45,15 @@ a {
 i {
     color: white;
 }
+.fa-solid {
+    display: inline-block;
+    padding: 2px;
+}
 
 #p1 {
     font-size: 12px;
     color: white;
+    display: inline-block;
 }
 
 h2 {
