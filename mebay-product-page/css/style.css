@@ -17,6 +17,9 @@ h1 {
     'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     padding: 10px;
+    border-radius: 5%;
+    display: inline-block;
+    width: 100%;
 }
 
 #container {
@@ -45,6 +48,7 @@ a {
 i {
     color: white;
 }
+
 .fa-solid {
     display: inline-block;
     padding: 2px;
@@ -134,4 +138,8 @@ h2 {
     .fa-regular {
         color: blueviolet;
     }
+}
+
+img {
+    border-radius: 5%;
 }
