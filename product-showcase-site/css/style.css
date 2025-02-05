@@ -194,3 +194,9 @@ body {
     text-decoration: none;
     color: #000000;
 }
+
+#single {
+    width: 30%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
