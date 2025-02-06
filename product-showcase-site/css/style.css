@@ -157,7 +157,7 @@ body {
 }
 #button {
     display: block;
-    width: 300px;
+    width: 200px;
     padding: 8px 20px;
     background-color: #e6e6e6;
     color: #000000;
@@ -166,9 +166,7 @@ body {
     margin: 12px;
     font-weight: bold;
     text-decoration: none;
-    margin-left: 355px;
 }
-
 #media {
     text-decoration: none;
     color: #e6e6e6;
@@ -196,7 +194,7 @@ body {
 }
 
 #single {
-    width: 30%;
+    width: 90%;
     max-width: 1440px;
     margin: 0px auto;
 }
