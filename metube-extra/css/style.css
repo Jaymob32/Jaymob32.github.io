@@ -1,0 +1,53 @@
+/* Resets */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(black 50%, #55c3c7 200%);
+}
+
+/* grid */
+#two-columns {
+    display: grid;
+    grid-template-columns: 0fr 250px 600px 1fr;
+    grid-template-areas: ". sidebar content .";
+}
+
+/* sidebar */
+#sidebar {
+    grid-area: sidebar;
+    padding: 18px;
+}
+#sidebar ul{
+    background-color: #55c3c7;
+    margin: 0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar li {
+    border-bottom: 1px solid #000000;
+    padding: 8px 10px;
+}
+#sidebar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* main */
+#main {
+    grid-area: content;
+    margin: 0px 36px;
+    display: flex;
+    
+}
+
+#sketchcourse {
+    margin-top: 40px;
+    border: 1px solid #55c3c7;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    box-shadow: 5px 5px 8px grey;
+}
