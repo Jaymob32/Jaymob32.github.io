@@ -7,6 +7,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background: linear-gradient(black 50%, #55c3c7 200%);
+    background-repeat: no-repeat;
 }
 
 /* grid */
@@ -46,6 +47,24 @@ body {
 
 #sketchcourse {
     margin-top: 40px;
+    border: 1px solid #55c3c7;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    box-shadow: 5px 5px 8px grey;
+}
+
+#pencilshading {
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 1px solid #55c3c7;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    box-shadow: 5px 5px 8px grey;
+}
+
+#drawingexercise {
+    margin-top: 40px;
+    margin-left: 40px;
     border: 1px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
