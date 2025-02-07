@@ -9,6 +9,28 @@ body {
     background-color: #141414;
 }
 
+/* Header */
+#header {
+    background-color: #55c3c7;
+    color: #141414;
+    font-family: fantasy;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: one two three;
+}
+h1 {
+    display: inline-block;
+    grid-area: one;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#header .fa-circle-play {
+    font-size: 40px;
+    grid-area: one;
+    margin-right: 90px;
+    margin-top: 15px;
+}
+
 /* grid */
 #two-columns {
     display: grid;
@@ -34,6 +56,48 @@ body {
     text-decoration: none;
     color: #000000;
 }
+#split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "one two"
+        "three four"
+        "five six";
+    gap: 15px;
+}
+#landscape {
+    grid-area: one;
+    border-radius: 15%;
+    box-shadow: 4px 4px 8px #303030c0;
+}
+#draws {
+    font-size: 10px;
+    grid-area: two;
+}
+#jono {
+    grid-area: three;
+    border-radius: 15%;
+    box-shadow: 4px 4px 8px #303030c0;
+}
+#subs {
+    grid-area: four;
+    font-size: 10px;
+}
+#portrait {
+    grid-area: five;
+    border-radius: 15%;
+    box-shadow: 4px 4px 8px #303030c0;
+}
+#sketch {
+    grid-area: six;
+    font-size: 10px;
+}
+a {
+    transition: height 0.5s;
+}
+a:hover {
+    height: 100px;
+}
 
 /* main */
 #main {
@@ -52,8 +116,27 @@ body {
     border: 1px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-    box-shadow: 5px 5px 8px grey;
     grid-area: one;
+}
+#h1 {
+    color: white;
+    text-align: center;
+}
+#p1 {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#block1 {
+    border: 1px solid #ffffff1e;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: inset 8px 8px 10px #8080802f;
 }
 
 #pencilshading {
@@ -61,8 +144,24 @@ body {
     border: 1px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-    box-shadow: 5px 5px 8px grey;
     grid-area: two;
+}
+#h2 {
+    text-align: center;
+    color: white;
+}
+#p2 {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+#block2 {
+    border: 1px solid #ffffff1e;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: inset 8px 8px 10px #8080802f;
 }
 
 #drawingexercise {
@@ -73,6 +172,24 @@ body {
     box-shadow: 5px 5px 8px grey;
     grid-area: three;
 }
+#h3 {
+    text-align: center;
+    color: white;
+}
+#p3 {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+#block3 {
+    border: 1px solid #ffffff1e;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: inset 8px 8px 10px #8080802f;
+}
+
 
 #howlong {
     margin-top: 40px;
