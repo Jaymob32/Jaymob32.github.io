@@ -6,8 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient(black 50%, #55c3c7 200%);
-    background-repeat: no-repeat;
+    background-color: #141414;
 }
 
 /* grid */
@@ -29,7 +28,6 @@ body {
     padding: 0px 12px;
 }
 #sidebar li {
-    border-bottom: 1px solid #000000;
     padding: 8px 10px;
 }
 #sidebar a {
@@ -41,8 +39,12 @@ body {
 #main {
     grid-area: content;
     margin: 0px 36px;
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one two three"
+        "four five six";
+    gap: 40px;
 }
 
 #sketchcourse {
@@ -51,22 +53,50 @@ body {
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     box-shadow: 5px 5px 8px grey;
+    grid-area: one;
 }
 
 #pencilshading {
     margin-top: 40px;
-    margin-left: 40px;
     border: 1px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     box-shadow: 5px 5px 8px grey;
+    grid-area: two;
 }
 
 #drawingexercise {
     margin-top: 40px;
-    margin-left: 40px;
     border: 1px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     box-shadow: 5px 5px 8px grey;
+    grid-area: three;
+}
+
+#howlong {
+    margin-top: 40px;
+    border: 1px solid #55c3c7;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    box-shadow: 5px 5px 8px grey;
+    grid-area: four;
+}
+
+#loomis {
+    margin-top: 40px;
+    border: 1px solid #55c3c7;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    box-shadow: 5px 5px 8px grey;
+    grid-area: five;
+}
+
+#realisticeye {
+    margin-top: 40px;
+    border: 1px solid #55c3c7;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    box-shadow: 5px 5px 8px grey;
+    grid-area: six;
 }
