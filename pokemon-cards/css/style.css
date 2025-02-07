@@ -19,3 +19,137 @@ body {
 }
 
 /* content */
+.card-style-3 {
+    max-width: 358px;
+    margin: 16px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.card-style-3 img {
+    width: 300px;
+    border: #c2a500 solid 5px;
+}
+
+/* All */
+.pokemon-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 65px;
+}
+h2 {
+    margin: 0px;
+}
+.details {
+    background: linear-gradient(90deg, #c2a500, yellow, #c2a500);
+    font-size: 12px;
+    font-weight: bold;
+}
+.attack {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.health {
+    font-size: 20px;
+}
+
+/* Card1 */
+#pokemon-card-1 .data {
+    border: 1px solid goldenrod;
+    font-size: 12px;
+}
+#pokemon-card-1 {
+    background: linear-gradient(50deg, green, lightgreen, green);
+    border: 15px solid gold;
+    border-radius: 2%;
+    gap: 20px;
+}
+#pokemon-card-1 .energy {
+    margin-top: 45px;
+}
+#pokemon-card-1 .power {
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Card 2 */
+#pokemon-card-2 .data {
+    border: 1px solid goldenrod;
+    font-size: 12px;
+}
+#pokemon-card-2 {
+    background: linear-gradient(50deg, green, lightgreen, green);
+    border: 15px solid gold;
+    border-radius: 2%;
+    gap: 20px;
+}
+#pokemon-card-2 .energy {
+    margin-top: 30px;
+}
+#pokemon-card-2 .power {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Card 3 */
+#pokemon-card-3 .data {
+    border: 1px solid goldenrod;
+    font-size: 12px;
+}
+#pokemon-card-3 {
+    background: linear-gradient(50deg, #ffb951, rgb(235, 95, 2), #ffb951);
+    border: 15px solid gold;
+    border-radius: 2%;
+    gap: 20px;
+}
+#pokemon-card-3 .energy {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+#pokemon-card-3 .power {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+#pokemon-card-3 .description {
+    padding: 15px;
+}
+#pokemon-card-3 .attack {
+    border-top: none;
+}
+
+/* card 4 */
+#pokemon-card-4 .data {
+    border: 1px solid #daa520;
+    font-size: 12px;
+}
+#pokemon-card-4 {
+    background: linear-gradient(50deg, #0ca1ac, #9ef0f0, #0ca1ac);
+    border: 15px solid gold;
+    border-radius: 2%;
+    gap: 20px;
+}
+#pokemon-card-4 .energy {
+    margin-top: 30px;
+}
+#pokemon-card-4 .power {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+#pokemon-card-4 .attack {
+    border-top: none;
+}
