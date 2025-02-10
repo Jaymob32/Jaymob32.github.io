@@ -43,12 +43,14 @@ h1 {
 #sidebar {
     grid-area: sidebar;
     padding: 18px;
-}
-#sidebar ul{
+    box-shadow: 4px 4px 8px rgba(134, 134, 134, 0.308);
     background-color: #55c3c7;
+}
+#sidebar ul {
     margin: 0px 0px 36px;
     list-style-type: none;
     padding: 0px 12px;
+    border: 1px solid white;
 }
 #sidebar li {
     padding: 8px 10px;
@@ -115,7 +117,7 @@ a:hover {
 /* 1 */
 #sketchcourse {
     margin-top: 40px;
-    border: 1px solid #55c3c7;
+    border: 5px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     grid-area: one;
@@ -125,7 +127,7 @@ a:hover {
     text-align: center;
 }
 #p1 {
-    color: white;
+    color: #55c3c7;
     font-size: 10px;
     text-align: center;
 }
@@ -144,7 +146,7 @@ a {
 /* 2 */
 #pencilshading {
     margin-top: 40px;
-    border: 1px solid #55c3c7;
+    border: 5px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     grid-area: two;
@@ -155,7 +157,7 @@ a {
 }
 #p2 {
     text-align: center;
-    color: white;
+    color: #55c3c7;
     font-size: 10px;
 }
 #block2 {
@@ -170,7 +172,7 @@ a {
 /* 3 */
 #drawingexercise {
     margin-top: 40px;
-    border: 1px solid #55c3c7;
+    border: 5px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     box-shadow: 5px 5px 8px grey;
@@ -181,7 +183,7 @@ a {
     color: white;
 }
 #p3 {
-    color: white;
+    color: #55c3c7;
     font-size: 10px;
     text-align: center;
 }
@@ -196,7 +198,7 @@ a {
 
 /* 4 */
 #block4 {
-    border: 1px solid #ffffff1e;
+    border: 2px solid #ffffff1e;
     margin: 20px 0px;
     padding: 10px;
     border-top-left-radius: 15%;
@@ -205,7 +207,7 @@ a {
 }
 #howlong {
     margin-top: 40px;
-    border: 1px solid #55c3c7;
+    border: 5px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     grid-area: four;
@@ -215,7 +217,7 @@ a {
     color: white;
 }
 #p4 {
-    color: white;
+    color: #55c3c7;
     font-size: 10px;
     text-align: center;
 }
@@ -223,19 +225,51 @@ a {
 /* 5 */
 #loomis {
     margin-top: 40px;
-    border: 1px solid #55c3c7;
+    border: 5px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-    box-shadow: 5px 5px 8px grey;
     grid-area: five;
+}
+#block5 {
+    border: 1px solid #ffffff1e;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: inset 8px 8px 10px #8080802f;
+}
+#h5 {
+    text-align: center;
+    color: white;
+}
+#p5 {
+    color: #55c3c7;
+    font-size: 10px;
+    text-align: center;
 }
 
 /* 6 */
 #realisticeye {
     margin-top: 40px;
-    border: 1px solid #55c3c7;
+    border: 5px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-    box-shadow: 5px 5px 8px grey;
     grid-area: six;
+}
+#block6 {
+    border: 1px solid #ffffff1e;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: inset 8px 8px 10px #8080802f;
+}
+#h6 {
+    text-align: center;
+    color: white;
+}
+#p6 {
+    color: #55c3c7;
+    font-size: 10px;
+    text-align: center;
 }
