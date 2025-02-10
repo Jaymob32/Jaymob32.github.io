@@ -9,11 +9,11 @@
 */
 
 .card-style-2 {
-    max-width: 358px;
+    max-width: 350px;
     margin: 16px;
     background-color: white;
     padding: 20px;
-    border-radius: 10%;
+    border-radius: 32px;
 }
 
 .card-style-2 img {
@@ -25,7 +25,6 @@
 
 .brand-name {
     font-size: 28px;
-    margin-top: 14px;
 }
 
 h2 {
@@ -49,4 +48,5 @@ p {
 .animagram-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
