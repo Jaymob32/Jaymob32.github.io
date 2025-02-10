@@ -12,6 +12,7 @@ body {
 /* Header */
 #header {
     background-color: #55c3c7;
+    width: 100%;
     color: #141414;
     font-family: fantasy;
     display: grid;
@@ -111,6 +112,7 @@ a:hover {
     gap: 40px;
 }
 
+/* 1 */
 #sketchcourse {
     margin-top: 40px;
     border: 1px solid #55c3c7;
@@ -139,6 +141,7 @@ a {
     box-shadow: inset 8px 8px 10px #8080802f;
 }
 
+/* 2 */
 #pencilshading {
     margin-top: 40px;
     border: 1px solid #55c3c7;
@@ -164,6 +167,7 @@ a {
     box-shadow: inset 8px 8px 10px #8080802f;
 }
 
+/* 3 */
 #drawingexercise {
     margin-top: 40px;
     border: 1px solid #55c3c7;
@@ -190,16 +194,33 @@ a {
     box-shadow: inset 8px 8px 10px #8080802f;
 }
 
-
+/* 4 */
+#block4 {
+    border: 1px solid #ffffff1e;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: inset 8px 8px 10px #8080802f;
+}
 #howlong {
     margin-top: 40px;
     border: 1px solid #55c3c7;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-    box-shadow: 5px 5px 8px grey;
     grid-area: four;
 }
+#h4 {
+    text-align: center;
+    color: white;
+}
+#p4 {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
 
+/* 5 */
 #loomis {
     margin-top: 40px;
     border: 1px solid #55c3c7;
@@ -209,6 +230,7 @@ a {
     grid-area: five;
 }
 
+/* 6 */
 #realisticeye {
     margin-top: 40px;
     border: 1px solid #55c3c7;
