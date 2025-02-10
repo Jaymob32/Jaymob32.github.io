@@ -67,7 +67,8 @@
     border: 2px solid goldenrod;
     padding: 2px 8px;
 }
-#pokemon-card-1, #pokemon-card-2 {
+#pokemon-card-1, 
+#pokemon-card-2 {
     background: linear-gradient(-25deg, #90ee90, #228b22, #90ee90);
 }
 #pokemon-card-3 {
