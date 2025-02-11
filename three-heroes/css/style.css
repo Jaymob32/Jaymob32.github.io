@@ -34,7 +34,7 @@ body #hero-1 a:hover {
 
 /* Hero2 */
 #hero-2 {
-    background-image: url("../images/first.webp");
+    background-image: url("../images/first.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -48,12 +48,11 @@ body #hero-1 a:hover {
 }
 #hero-2 h1 {
     color: white;
-    font-size: 35px;
-    text-decoration: underline;
+    font-size: 60px;
 }
 #hero-2 h4 {
-    font-size: 25px;
-    color: purple;
+    font-size: 40px;
+    color: #ffffff;
     margin-bottom: 60px;
 }
 .hero-2-content a {
@@ -64,10 +63,11 @@ body #hero-1 a:hover {
     padding: 15px;
     font-size: 20px;
     text-decoration: none;
-    transition: background-color 0.25s;
+    transition: background-color 0.25s color 0.25s;
 }
 .hero-2-content a:hover {
-    background-color: transparent;
+    background-color: limegreen;
+    color: purple;
 }
 
 /* hero3 */
