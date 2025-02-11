@@ -1,0 +1,121 @@
+/* Hero1 */
+#hero-1 {
+    background-image: url("../images/business.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-1 h1 {
+    font-size: 50px;
+}
+#hero-1 h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.hero-1-content a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15%;
+}
+body a {
+    color: black;
+    font-size: 26px;
+    transition: background-color 0.5s color 0.5s;
+}
+body #hero-1 a:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* Hero2 */
+#hero-2 {
+    background-image: url("../images/first.webp");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.hero-2-content {
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    left: 4%;
+}
+#hero-2 h1 {
+    color: white;
+    font-size: 35px;
+    text-decoration: underline;
+}
+#hero-2 h4 {
+    font-size: 25px;
+    color: purple;
+    margin-bottom: 60px;
+}
+.hero-2-content a {
+    color: purple;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.25s;
+}
+.hero-2-content a:hover {
+    background-color: transparent;
+}
+
+/* hero3 */
+#hero-3 {
+    background-image: url("../images/sale.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    flex-direction: column;
+    position: relative;
+}
+.hero-3-content {
+    position: absolute;
+}
+.hero-3-content h1 {
+    font-size: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+}
+.hero-3-content p {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+    text-align: center;
+}
+.hero-3-content .p2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+#hero-3 .hero-3-content a {
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    padding: 15px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.5s color 0.5s;
+}
+#hero-3 .hero-3-content a:hover {
+    background-color: black;
+    color: white;
+}
