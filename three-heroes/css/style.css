@@ -84,6 +84,7 @@ body #hero-1 a:hover {
 }
 .hero-3-content {
     position: absolute;
+    margin-right: 20px;
 }
 .hero-3-content h1 {
     font-size: 200px;
