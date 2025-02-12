@@ -9,11 +9,37 @@
 
 #license {
     width: 700px;
-    border: 3px;
-    border-radius: 15%;
+    border: 1px solid black;
+    border-radius: 5%;
     padding: 24px;
 }
 #left-side {
     display: inline-block; 
     width: 65%;
 }
+#right-side {
+    display: inline-block; 
+    width: 34%;
+}
+#id-and-expiration div {
+    display: inline-block;
+}
+#small-pic #data-fields {
+    display: inline-block;
+}
+#small-pic-container img {
+    width: 100px;
+}
+#data-left #data-right {
+    display: inline-block;
+}
+#signature {
+    text-align: center;
+}
+#right-side img {
+    width: 100%;
+}
+#donor #real-id {
+    display: inline-block;
+}
+
