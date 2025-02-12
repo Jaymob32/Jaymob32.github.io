@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap');
+/* RESETS */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #c7c7c7;
+}
+
+/* Hero */
+#hero {
+    background-image: url(../images/hero.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    gap: 600px;
+    margin-bottom: 100px;
+}
+#hero h1 {
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #4b6a4bc2;
+    padding: 10px;
+    padding-right: 90px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 65px;
+}
+#hero h3 a {
+    color: white;
+    background-color: #4b6a4bc2;
+    padding: 10px;
+    text-decoration: none;
+    border: #ffffff solid 1px;
+    border-radius: 20%;
+    font-size: 25px;
+    font-family:
+        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+        Arial, sans-serif;
+    transition: background-color 0.5s color 0.5s;
+}
+#hero h3 a:hover {
+    background-color: white;
+    color: #4b6a4bc2;
+}
+h1 {
+font-family: "Atomic Age", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Cards */
+#cards #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    gap: 6px;
+}
+
+/* Card1 */
+#cards #grid .card1 h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 
+        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+        Arial, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#cards #grid .card1 {
+    border: #4b6a4bc2 solid 5px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #212121;
+    padding: 30px;
+    box-shadow: inset 4px 4px 8px #5b5b5b;
+}
+#cards #grid .card1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #4b6a4bc2;
+    padding: 10px;
+    border-radius: 15%;
+    border: white 1px solid;
+    box-shadow: inset #8d8d8dc2 4px 4px 5px;
+    text-shadow: #2a2a2a 4px 4px 5px;
+    transition: background-color 0.5s color 0.5s;
+}
+#cards #grid .card1 a:hover {
+    background-color: white;
+    color: #000000c2;
+}
+#cards #grid .card1 #p1 {
+    font-size: 50px;
+    color: white;
+    background-color: #4b6a4bc2;
+    padding: 20px 20px 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#cards #grid .card1 #p2 {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 40px;
+    padding: 10px;
+}
+
+/* Card2 */
+#cards #grid .card2 h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 
+        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+        Arial, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#cards #grid .card2 {
+    border: #4b6a4bc2 solid 5px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #212121;
+    padding: 30px;
+    box-shadow: inset 4px 4px 8px #5b5b5b;
+}
+#cards #grid .card2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #4b6a4bc2;
+    padding: 10px;
+    border-radius: 15%;
+    border: white 1px solid;
+    box-shadow: inset #8d8d8dc2 4px 4px 5px;
+    text-shadow: #2a2a2a 4px 4px 5px;
+    transition: background-color 0.5s color 0.5s;
+}
+#cards #grid .card2 a:hover {
+    background-color: white;
+    color: #000000c2;
+}
+#cards #grid .card2 #p1 {
+    font-size: 50px;
+    color: white;
+    background-color: #4b6a4bc2;
+    padding: 20px 20px 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#cards #grid .card2 ul {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px 40px;
+    padding: 20px;
+    list-style: none;
+}
+
+/* Card3 */
+#cards #grid .card3 h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 
+        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+        Arial, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+#cards #grid .card3 {
+    border: #4b6a4bc2 solid 5px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #212121;
+    box-shadow: inset 4px 4px 8px #5b5b5b;
+}
+#cards #grid .card3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #4b6a4bc2;
+    padding: 10px;
+    border-radius: 15%;
+    border: white 1px solid;
+    box-shadow: inset #8d8d8dc2 4px 4px 5px;
+    text-shadow: #2a2a2a 4px 4px 5px;
+    transition: background-color 0.5s color 0.5s;
+}
+#cards #grid .card3 a:hover {
+    background-color: white;
+    color: #000000c2;
+}
