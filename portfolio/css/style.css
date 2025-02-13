@@ -20,6 +20,7 @@ body {
     position: relative;
     gap: 600px;
     margin-bottom: 100px;
+    box-shadow: 4px 8px 10px #424242;
 }
 #hero h1 {
     margin-left: 20px;
@@ -36,24 +37,24 @@ body {
     background-color: #4b6a4bc2;
     padding: 10px;
     text-decoration: none;
-    border: #ffffff solid 1px;
     border-radius: 20%;
     font-size: 25px;
     font-family:
         'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
         Arial, sans-serif;
-    transition: background-color 0.5s color 0.5s;
+    transition: background-color 0.5s color 0.5s text-decoration 0.5s;
+    box-shadow: inset 4px 4px 8px rgb(63, 63, 63);
 }
 #hero h3 a:hover {
     background-color: white;
     color: #4b6a4bc2;
+    text-decoration: underline;
 }
 h1 {
-font-family: "Atomic Age", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Atomic Age", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
 
 /* Cards */
 #cards #grid {
@@ -110,8 +111,8 @@ font-family: "Atomic Age", serif;
 }
 #cards #grid .card1 #p2 {
     color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 20px 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 55px 40px;
     padding: 10px;
 }
 
@@ -160,8 +161,8 @@ font-family: "Atomic Age", serif;
 }
 #cards #grid .card2 ul {
     color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 30px 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 45px 40px;
     padding: 20px;
     list-style: none;
 }
@@ -175,6 +176,7 @@ font-family: "Atomic Age", serif;
         Arial, sans-serif;
     color: white;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 #cards #grid .card3 {
     border: #4b6a4bc2 solid 5px;
@@ -182,6 +184,7 @@ font-family: "Atomic Age", serif;
     border-bottom-left-radius: 50%;
     background-color: #212121;
     box-shadow: inset 4px 4px 8px #5b5b5b;
+    padding: 30px;
 }
 #cards #grid .card3 a {
     color: white;
@@ -198,4 +201,220 @@ font-family: "Atomic Age", serif;
 #cards #grid .card3 a:hover {
     background-color: white;
     color: #000000c2;
+}
+#cards #grid .card3 #p1 {
+    font-size: 50px;
+    color: white;
+    background-color: #4b6a4bc2;
+    padding: 20px 20px 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#cards #grid .card3 #p2 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 75px 40px;
+    padding: 10px;
+}
+
+/* Gallery */
+#gallery h1 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: white;
+    background-color: #4b6a4bc2;
+    padding: 20px;
+    text-decoration: underline;
+}
+#gallery h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    background-color: #4b6a4b4b;
+    margin-top: 0px;
+    padding: 10px;
+}
+#gallery {
+    max-width: 1200px;
+    margin: 48px auto;
+    text-align: center;
+    background-color: #212121;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+#gallery #layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 24px;
+    gap: 50px 24px;
+    margin: 20px;
+    padding-bottom: 150px;
+}
+#gallery #layout img {
+    width: 100%;
+    border: 1px solid #ffffff25;
+    border-radius: 5%;
+    box-shadow: 4px 4px 12px #000000;
+    transition: box-shadow 0.5s color 0.5s h4 0.5s;
+}
+
+#img9 {
+    position: relative;
+}
+#img9 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img9:hover a {
+    opacity: 1;
+}
+
+#img8 {
+    position: relative;
+}
+#img8 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img8:hover a {
+    opacity: 1;
+}
+
+#img7 {
+    position: relative;
+}
+#img7 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img7:hover a {
+    opacity: 1;
+}
+
+#img6 {
+    position: relative;
+}
+#img6 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img6:hover a {
+    opacity: 1;
+}
+
+#img5 {
+    position: relative;
+}
+#img5 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img5:hover a {
+    opacity: 1;
+}
+
+#img4 {
+    position: relative;
+}
+#img4 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img4:hover a {
+    opacity: 1;
+}
+
+#img3 {
+    position: relative;
+}
+#img3 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img3:hover a {
+    opacity: 1;
+}
+
+#img2 {
+    position: relative;
+}
+#img2 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img2:hover a {
+    opacity: 1;
+}
+
+#img1 {
+    position: relative;
+}
+#img1 a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+#img1:hover a {
+    opacity: 1;
+}
+
+#back {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #4b6a4bc2;
+    padding: 20px;
+    transition: font-size 0.5s;
+}
+#back:hover {
+    font-size: 30px;
 }
