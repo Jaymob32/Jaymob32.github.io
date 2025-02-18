@@ -22,13 +22,75 @@ body {
     font-size: 18px;
 }
 
+.container {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.img-container,
+.content {
+    flex: 1;
+}
+
+.img-container img {
+    height: 100%;
+    border-radius: 24px;
+}
+
+.img-container {
+    height: 400px;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #ffb700
+}
+
 /* Media Queries should always be the last thing in your CSS,
 because they overwrite what is above it. For them to work, they
 have to be the last thing read. */
 
+@media screen and (max-width:740px) and (min-width: 481px) {
+    .intro {
+        gap: 24px;
+    }
+    .img-container {
+        height: 300px;
+    }
+    .content h1 {
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #nav {
         flex-direction: column;
+    }
+    .intro {
+        flex-direction: column;
+    }
+    .content h1 {
+        margin: 0px;
+        font-size: 24px;
+    }
+    .content {
+        text-align: center;
+    }
+    .img-container {
+        flex: 200px;
+        width: 100%;
     }
 }
 
