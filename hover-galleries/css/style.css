@@ -26,7 +26,7 @@ body {
     border: 3px solid black;
     border-radius: 14px;
     box-shadow: 4px 4px 4px grey;
-    background-color: rgb(102, 179, 179);
+    background-color: #66b3b3;
     transition: background-color 0.5s;
     text-align: center;
 }
@@ -41,7 +41,10 @@ img:hover {
     color: white;
     padding: 8px;
     text-decoration: none;
-    transition: box-shadow 0.25s, transform 0.25s;
+    transition: 
+        box-shadow 0.25s, 
+        transform 0.25s
+    ;
 }
 #gal-1 .card a:hover {
     box-shadow: 4px 4px 4px grey;
@@ -56,9 +59,12 @@ img:hover {
     margin-bottom: 60px;
 }
 #gal-2 .card {
-    background-color: rgb(181, 117, 181);
+    background-color: #b575b5;
     padding: 65px;
-    transition: box-shadow 0.5s, transform 0.5s;
+    transition: 
+        box-shadow 0.5s, 
+        transform 0.5s
+    ;
 }
 #gal-2 .card:hover {
     box-shadow: inset 4px 4px 4px #4d0735;
@@ -80,14 +86,24 @@ img:hover {
 }
 #gal-3 .card {
     padding: 15px;
+    background-color: black;
 }
-#gal-3 h2 {
-    text-align: center;
-    visibility: hidden;
-    transition: visibility 0.5s;
+#gal-3 h2 a {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #4d0735;
+    border-radius: 15px;
+    transition: 
+        transform 0.5s, 
+        box-shadow 0.5s
+    ;
 }
 #gal-3 h2:hover {
-    visibility: visible;
+    transform: translateY(-15px);
+    box-shadow: 5px 5px 5px white;
 }
 #gal-3 .card img {
     border-radius: 20px;
