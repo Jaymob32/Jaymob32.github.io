@@ -1,0 +1,94 @@
+/* Resets */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/*Gallery1*/
+
+#gal-1 {
+    display: flex;
+    margin: 10px;
+    gap: 8px;
+    margin-bottom: 60px;
+}
+#gal-1 .card img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 60px;
+}
+.card {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 14px;
+    box-shadow: 4px 4px 4px grey;
+    background-color: rgb(102, 179, 179);
+    transition: background-color 0.5s;
+    text-align: center;
+}
+#gal-1 .card:hover {
+    background-color: transparent;
+}
+img:hover {
+    border: 3px solid black;
+}
+#gal-1 .card a {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    transition: box-shadow 0.25s, transform 0.25s;
+}
+#gal-1 .card a:hover {
+    box-shadow: 4px 4px 4px grey;
+    transform: translateY(-4px);
+}
+
+/* Gallery2 */
+#gal-2 {
+    display: flex;
+    margin: 10px;
+    gap: 8px;
+    margin-bottom: 60px;
+}
+#gal-2 .card {
+    background-color: rgb(181, 117, 181);
+    padding: 65px;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+#gal-2 .card:hover {
+    box-shadow: inset 4px 4px 4px #4d0735;
+    transform: translateY(-8px);
+}
+#gal-2 .card .fa-solid {
+    width: 100%;
+    padding: 10px;
+    border-radius: 60px;
+    font-size: 80px;
+}
+
+/* Gallery3 */
+#gal-3 {
+    display: flex;
+    margin: 10px;
+    gap: 8px;
+    margin-bottom: 60px;
+}
+#gal-3 .card {
+    padding: 15px;
+}
+#gal-3 h2 {
+    text-align: center;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+#gal-3 h2:hover {
+    visibility: visible;
+}
+#gal-3 .card img {
+    border-radius: 20px;
+}
