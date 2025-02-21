@@ -58,3 +58,9 @@ body {
 #navbar .dropdown-menu a:hover {
     color: #000042;
 }
+.dropdown-container i {
+    transition: transform 0.75s;
+}
+.dropdown-container:hover i {
+    transform: rotate(180deg);
+}
