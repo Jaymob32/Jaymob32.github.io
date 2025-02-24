@@ -44,7 +44,7 @@ img:hover {
     transition: 
         box-shadow 0.25s, 
         transform 0.25s
-    ;
+        ;
 }
 #gal-1 .card a:hover {
     box-shadow: 4px 4px 4px grey;
@@ -64,7 +64,7 @@ img:hover {
     transition: 
         box-shadow 0.5s, 
         transform 0.5s
-    ;
+        ;
 }
 #gal-2 .card:hover {
     box-shadow: inset 4px 4px 4px #4d0735;
@@ -99,7 +99,7 @@ img:hover {
     transition: 
         transform 0.5s, 
         box-shadow 0.5s
-    ;
+        ;
 }
 #gal-3 h2:hover {
     transform: translateY(-15px);
