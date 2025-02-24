@@ -187,6 +187,10 @@ body {
 }
 
 /* Queries */
-@media screen and (min-width: 325px) {
-    
+@media screen and (min-width: 325px) and (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-end;
+    }
 }
