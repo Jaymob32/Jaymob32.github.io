@@ -105,6 +105,11 @@ body {
     padding: 10px;
     border-radius: 20px;
     color: #D71F26;
+    transition: 
+        box-shadow 0.5s;
+}
+#hero a:hover {
+    box-shadow: 4px 4px 8px black;
 }
 
 /* Queries */
