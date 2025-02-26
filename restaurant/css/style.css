@@ -70,6 +70,7 @@ body {
     font-weight: bold;
 }
 
+/* Home */
 /*Hero*/
 #hero {
     height: 80vh;
@@ -82,6 +83,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     position: relative;
+    margin-bottom: 500px;
 }
 #hero h1 {
     position: absolute;
@@ -110,6 +112,29 @@ body {
 }
 #hero a:hover {
     box-shadow: 4px 4px 8px black;
+}
+
+/* Footer */
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #ffffffea;
+}
+#footer a {
+    background-color: #212B5E;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 0.5s;
+}
+#footer a:hover {
+    box-shadow: 4px 4px 8px black;
+}
+#footer img {
+    margin: 20px;
 }
 
 /* Menu */
@@ -141,88 +166,126 @@ body {
     margin: 30px 20px;
 }
 
-/* Menu */
 /* cards */
-#card-contain {
+#two-column {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 150px;
-    gap: 20px;
+    gap: 50px;
 }
-
 /* Themes */
-.themes {
+.col-1 {
     background-color: white;
-    border: 3px solid #D71F26;
-    box-shadow: 5px 5px 8px #0000007c;
-    position: relative;
     padding: 40px;
+    margin: 20px;
 }
-.themes a {
-    display: flex;
-    align-items: baseline;
-    padding: 5px;
-    text-decoration: none;
+.col-1 h3 {
+    text-align: center;
     color: white;
+    font-family: "Imprint MT Shadow", Serif;
+    font-size: 30px;
 }
-.themes i {
-    color: #212B5E;
-    transition: transform 0.75s;
-    font-size: 24px;
+.col-1 .list1 {
+    display: inline-block;
+    margin: 0px 50px;
 }
-.themes:hover i {
-    transform: rotate(180deg);
+.col-1 .list2 {
+    display: inline-block;
+    margin: 0px 50px;
 }
-.drop-menu1 a {
-    color: #212B5E;
+.col-1 #lists {
+    text-align: center;
+}
+.col-1 h5 {
+    font-family: "Imprint MT Shadow", Serif;
     font-size: 20px;
+    color: #D71F26;
+    text-decoration: underline;
 }
-.drop-menu1 .sub-items1 a {
-    color: #212B5E;
-    font-size: 15px;
+.col-1 li {
+    font-family: "Minion variable concept", serif;
+    font-size: 18px;
 }
-.drop-menu1 .sub-items2 a {
-    color: #212B5E;
-    font-size: 15px;
+.col-1 a {
+    text-decoration: none;
+    color: black;
+    transition: 
+        font-size 0.25s, 
+        transform 0.25s, 
+        color 0.25s;
 }
-.drop-menu {
-    position: absolute;
+.col-1 a:hover {
+    font-size: 25px;
+    transform: translateY(-8);
+    color: #D71F26;
 }
 
 /* Dishes */
-.dishes {
+.col-2 {
     background-color: white;
-    border: 3px solid #D71F26;
-    box-shadow: 5px 5px 8px #0000007c;
     padding: 40px;
+    margin: 20px;
 }
-.dishes a {
-    display: flex;
-    align-items: baseline;
-    padding: 5px;
-    text-decoration: none;
+.col-2 h3 {
+    text-align: center;
     color: white;
-    position: relative;
+    font-family: "Imprint MT Shadow", Serif;
+    font-size: 30px;
 }
-.sub-items3 {
-    position: absolute;
+.col-2 ul {
+    display: flex;
 }
-.sub-items3:hover {
-    
+.col-2 li {
+    margin: 35px;
+    width: 200px;
+    list-style: none;
 }
-.sub-items3 a {
-    color: #212B5E;
+.col-2 img {
+    width: 100%;
+    box-shadow: 4px 4px 8px black;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-.dishes i {
-    color: #212B5E;
+.col-2 h5 {
+    font-family: "Imprint MT Shaddow", serif;
+    font-size: 18px;
+    color: #D71F26;
+    text-decoration: underline;
 }
-.dishes i {
-    color: #212B5E;
-    transition: transform 0.75s;
-    font-size: 24px;
+.col-2 a, h5 {
+    transition: 
+        font-size 0.25s,
+        width 0.25s
+    ;
 }
-.dishes:hover i {
-    transform: rotate(180deg);
+.col-2 a:hover h5 {
+    font-size: 25px;
+    width: 200px;
 }
 
 /* Queries */
+@media screen and (min-width: 480px) and (max-width: 1440px) {
+    .col-2 ul {
+        flex-wrap: wrap;
+    }
+    .col-2 li {
+        margin: 30px;
+        width: 100px;
+    }
+    .col-2 img {
+        width: 100px;
+    }
+    .col-2 h5 {
+        font-size: 15px;
+    }
+    .col-2 a, h5 {
+        transition: 
+            font-size 0.25s,
+            width 0.25s
+        ;
+    }
+    .col-2 a:hover h5 {
+        font-size: 20px;
+        width: 150px;
+    }
+}
