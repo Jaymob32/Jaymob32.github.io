@@ -112,4 +112,118 @@ body {
     box-shadow: 4px 4px 8px black;
 }
 
+/* Menu */
+/* Banner */
+#banner {
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: none;
+    border-radius: 20px;
+    height: 75vh;
+    margin: 40px 20px;
+    right: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    color: white;
+    font-family: "Imprint MT Shadow", serif;
+    font-size: 25px;
+}
+#banner h1, h3 {
+    background-color: #212b5ec8;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+
+/* Menu */
+/* cards */
+#card-contain {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+    gap: 20px;
+}
+
+/* Themes */
+.themes {
+    background-color: white;
+    border: 3px solid #D71F26;
+    box-shadow: 5px 5px 8px #0000007c;
+    position: relative;
+}
+.themes a {
+    display: flex;
+    align-items: baseline;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.themes i {
+    color: #212B5E;
+    transition: transform 0.75s;
+    font-size: 24px;
+}
+.themes:hover i {
+    transform: rotate(180deg);
+}
+.drop-menu1 a {
+    color: #212B5E;
+    font-size: 20px;
+}
+.drop-menu1 .sub-items1 a {
+    color: #212B5E;
+    font-size: 15px;
+}
+.drop-menu1 .sub-items2 a {
+    color: #212B5E;
+    font-size: 15px;
+}
+.drop-menu {
+    position: absolute;
+}
+
+/* Dishes */
+.dishes {
+    background-color: white;
+    border: 3px solid #D71F26;
+    box-shadow: 5px 5px 8px #0000007c;
+}
+.dishes a {
+    display: flex;
+    align-items: baseline;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.sub-items3 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+.sub-items3:hover {
+    visibility: visible;
+    opacity: 1;
+}
+.sub-items3 a {
+    color: #212B5E;
+}
+.dishes i {
+    color: #212B5E;
+}
+.dishes i {
+    color: #212B5E;
+    transition: transform 0.75s;
+    font-size: 24px;
+}
+.dishes:hover i {
+    transform: rotate(180deg);
+}
+
 /* Queries */
