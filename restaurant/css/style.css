@@ -132,6 +132,7 @@ body {
     color: white;
     font-family: "Imprint MT Shadow", serif;
     font-size: 25px;
+    justify-content: center;
 }
 #banner h1, h3 {
     background-color: #212b5ec8;
@@ -144,7 +145,7 @@ body {
 /* cards */
 #card-contain {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 150px;
     gap: 20px;
 }
