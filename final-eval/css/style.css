@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Homenaje&display=swap');
+/* Resets */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/background.webp);
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Header */
+#header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    background-color: #000000a4;
+    border-radius: 15px;
+    padding: 10px;
+}
+#header h1 {
+    font-family: "Fugaz One", sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    color: orangered;
+}
+#header h3, 
+#header h2 {
+    font-family: "Homenaje", sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    color: white;
+    padding: 5px;
+}
+
+/* Teams */
+#teams {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.saints, 
+.chiefs {
+    padding: 40px;
+}
+.saints img,
+.chiefs img {
+    border: 4px solid white;
+}
+.saints, 
+.chiefs p {
+    font-size: 20px;
+    text-align: center;
+}
+#teams .p1 {
+    font-family: "Fugaz One", sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    background-color: white;
+    padding: 5px;
+}
+#teams .p2 {
+    font-family: "Homenaje", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    color: orangered;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px;
+}
+#teams h1 {
+    font-size: 60px;
+    font-family: "Homenaje", sans-serif;
+}
+
+/* Details */
+#details {
+    text-align: center;
+    background-color: #ffffffa4;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 25px;
+}
+.fa-tv {
+    font-size: 60px;
+}
+.fa-burger,
+.fa-beer-mug-empty {
+    font-size: 40px;
+}
+
+/* Buttons */
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 25px;
+    margin: 80px;
+}
+#buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 15px;
+}
+#buttons .can, a {
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+#buttons .can:hover {
+    transform: translateY(-10px);
+}
+#buttons a:hover {
+    box-shadow: 4px 4px 8px white;
+}
+#buttons .cant, a {
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+#buttons .cant:hover {
+    transform: translateY(10px);
+}
+
+/* Questions */
+#questions {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: #ff4400cb;
+}
+
+/* Queries */
+@media screen and (min-width: 325px) and (max-width: 1440px) {
+    #header {
+        margin: 15px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    #header h3 {
+        font-size: 20px;
+    }
+    #header h2 {
+        font-size: 20px;
+    }
+}
