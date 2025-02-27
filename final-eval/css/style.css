@@ -139,8 +139,6 @@ body {
     #header {
         margin: 15px;
         align-items: center;
-        display: flex;
-        justify-content: center;
     }
     #header h1 {
         font-size: 20px;
@@ -151,5 +149,30 @@ body {
     }
     #header h2 {
         font-size: 20px;
+    }
+    #teams {
+        margin: 5px;
+    }
+    #teams img {
+        width: 150px;
+    }
+    #teams .p1 {
+        font-size: 14px;
+    }
+    #teams .p2 {
+        font-size: 12px;
+    }
+    #details {
+        font-size: 10px;
+    }
+    #details i {
+        font-size: 20px;
+    }
+    #buttons {
+        gap: 20px;
+        font-size: 12px;
+    }
+    #questions {
+        font-size: 18px;
     }
 }
