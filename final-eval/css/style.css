@@ -157,6 +157,7 @@ a {
     }
     #teams {
         margin: 5px;
+        flex-wrap: wrap;
     }
     #teams img {
         width: 150px;
@@ -176,6 +177,8 @@ a {
     #buttons {
         gap: 20px;
         font-size: 12px;
+        flex-wrap: wrap;
+        margin: 25px;
     }
     #questions {
         font-size: 18px;
