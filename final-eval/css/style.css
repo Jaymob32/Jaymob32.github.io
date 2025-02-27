@@ -110,16 +110,21 @@ body {
     padding: 15px;
     border-radius: 15px;
 }
-#buttons .can, a {
+#buttons 
+.can, 
+a {
     transition: transform 0.5s, box-shadow 0.5s;
 }
 #buttons .can:hover {
     transform: translateY(-10px);
 }
-#buttons a:hover {
+#buttons 
+a:hover {
     box-shadow: 4px 4px 8px white;
 }
-#buttons .cant, a {
+#buttons 
+.cant, 
+a {
     transition: transform 0.5s, box-shadow 0.5s;
 }
 #buttons .cant:hover {
