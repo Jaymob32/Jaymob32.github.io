@@ -335,6 +335,9 @@ body {
 
 /* Queries */
 @media screen and (min-width: 480px) and (max-width: 1440px) {
+    #hero h1 {
+        left: 30px;
+    }
     .col-2 ul {
         flex-wrap: wrap;
     }
