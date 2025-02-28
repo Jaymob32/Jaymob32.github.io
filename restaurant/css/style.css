@@ -196,6 +196,11 @@ body {
 }
 
 /* Menu */
+#single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* Banner */
 #banner {
     background-image: url(../images/banner.jpg);
@@ -206,7 +211,6 @@ body {
     border-radius: 20px;
     height: 75vh;
     margin: 40px 20px;
-    right: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -222,6 +226,42 @@ body {
     padding: 10px;
     border-radius: 20px;
     margin: 30px 20px;
+}
+
+/* Feature */
+#feature .block {
+    margin: 20px;
+    padding: 60px;
+    background-color: #ffffffea;
+}
+#feature .block h1 {
+    text-align: center;
+    background-color: #212b5ec8;
+    color: white;
+    font-family: "Imprint MT Shadow", serif;
+}
+#feature .block h2 {
+    text-align: center;
+    color: #212B5E;
+    text-decoration: underline;
+    font-size: 25px;
+}
+#feature .block img {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 18px black;
+    border: 2px solid white;
+}
+#feature .block h3 {
+    background-color: #212b5e9c;
+    color: white;
+    box-shadow: 4px 4px 12px #0000007e;
+}
+#feature .block p {
+    padding: 0px 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Minion variable concept", sans-serif;
 }
 
 /* cards */
