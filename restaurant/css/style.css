@@ -233,6 +233,7 @@ body {
     margin: 20px;
     padding: 60px;
     background-color: #ffffffea;
+    width: 100%;
 }
 #feature .block h1 {
     text-align: center;
@@ -247,7 +248,7 @@ body {
     font-size: 25px;
 }
 #feature .block img {
-    align-items: center;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 4px 4px 18px black;
     border: 2px solid white;
@@ -263,19 +264,36 @@ body {
     font-size: 20px;
     font-family: "Minion variable concept", sans-serif;
 }
+#feature .block a {
+    text-decoration: none;
+    background-color: #D71F26;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: "Imprint MT Shadow", serif;
+    font-size: 25px;
+    border-radius: 20px;
+    transition: box-shadow 0.5s, font-size 0.5s;
+}
+#feature .block a:hover {
+    box-shadow: 4px 4px 10px #00000079;
+    font-size: 35px;
+}
 
 /* cards */
 #two-column {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 /* Themes */
 .col-1 {
     background-color: white;
     padding: 40px;
     margin: 20px;
+    width: 50%;
+    display: inline-block;
 }
 .col-1 h3 {
     text-align: center;
@@ -321,9 +339,11 @@ body {
 /* Dishes */
 .col-2 {
     background-color: white;
-    padding: 40px;
+    padding: 5px;
     margin: 10px;
     margin-bottom: 150px;
+    width: 50%;
+    flex-wrap: wrap;
 }
 .col-2 h3 {
     text-align: center;
@@ -334,6 +354,7 @@ body {
 .col-2 ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .col-2 li {
     width: 200px;
