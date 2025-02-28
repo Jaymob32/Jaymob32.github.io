@@ -257,6 +257,7 @@ body {
     background-color: #212b5e9c;
     color: white;
     box-shadow: 4px 4px 12px #0000007e;
+    text-align: center;
 }
 #feature .block p {
     padding: 0px 80px;
