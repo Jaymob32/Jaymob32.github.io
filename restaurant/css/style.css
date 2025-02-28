@@ -221,7 +221,9 @@ body {
     font-size: 25px;
     justify-content: center;
 }
-#banner h1, h3 {
+#banner 
+h1, 
+h3 {
     background-color: #212b5ec8;
     padding: 10px;
     border-radius: 20px;
@@ -310,6 +312,7 @@ body {
     margin: 20px;
     width: 50%;
     display: inline-block;
+    
 }
 .col-1 h3 {
     text-align: center;
@@ -337,6 +340,7 @@ body {
 .col-1 li {
     font-family: "Minion variable concept", serif;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 .col-1 a {
     text-decoration: none;
@@ -380,6 +384,8 @@ body {
     border: 1px solid;
     text-align: center;
     background-color: #212b5e30;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .col-2 img {
     width: 100%;
@@ -393,17 +399,23 @@ body {
     color: #D71F26;
     text-decoration: underline;
 }
-.col-2 a, h5 {
+.col-2 
+a, 
+h5 {
     transition: 
         font-size 0.25s,
         width 0.25s
-    ;
+        ;
 }
-.col-2 a:hover h5 {
+.col-2 
+a:hover 
+h5 {
     font-size: 25px;
     width: 200px;
 }
-.col-2 a, p {
+.col-2 
+a, 
+p {
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -421,6 +433,7 @@ body {
     .col-2 li {
         margin: 10px;
         width: 200px;
+        flex-wrap: wrap;
     }
     .col-2 img {
         width: 100px;
@@ -428,11 +441,13 @@ body {
     .col-2 h5 {
         font-size: 15px;
     }
-    .col-2 a, h5 {
+    .col-2 
+    a, 
+    h5 {
         transition: 
             font-size 0.25s,
             width 0.25s
-        ;
+            ;
     }
     .col-2 a:hover h5 {
         font-size: 20px;
