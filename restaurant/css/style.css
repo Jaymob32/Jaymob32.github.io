@@ -227,6 +227,21 @@ body {
     border-radius: 20px;
     margin: 30px 20px;
 }
+#banner {
+    font-size: 15px;
+}
+#banner a {
+    text-decoration: none;
+    color: white;
+    background-color: #D71F26;
+    padding: 10px;
+    border-radius: 20px;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+#banner a:hover {
+    box-shadow: 4px 4px 10px black;
+    transform: translateY(8px);
+}
 
 /* Feature */
 #feature .block {
